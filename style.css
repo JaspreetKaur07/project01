@@ -1,0 +1,194 @@
+/* Resetting some default styles for common elements */
+body, h2, p, ul, li {
+    margin: 1;
+    padding: 0;
+    text-align: center;
+}
+
+/* Body styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: wheat;
+    color: darkslategray;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header styles */
+header {
+    background-color: black;
+    color: whitesmoke;
+    padding: 1em;
+}
+
+/* Header h1 styles */
+header h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif; 
+    font-size: 60px; 
+    color: wheat; 
+    margin: 0; 
+}
+
+/* Header h3 styles */
+h3 {
+    font-family: Georgia, 'Times New Roman', Times, serif; 
+    font-size: 20px; 
+    color: wheat; 
+    margin: 0;
+    text-align: center;  
+}
+
+/* Header h1 hover effect */
+header h1:hover {
+    color: wheat;
+    text-decoration: wavy;
+}
+
+/* Navigation styles */
+nav {
+    text-align: center;
+}
+
+/* Navigation ul styles */
+nav ul {
+    list-style-type: none;
+}
+
+/* Navigation li styles */
+nav li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+/* Navigation a styles */
+nav a {
+    text-decoration: none;
+    color: whitesmoke;
+    font-weight: bold;
+}
+
+/* About section styles */
+#about {
+    max-width: 800px;
+    margin: 5px auto;
+    padding: 20px;
+    background-color: whitesmoke;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Featured watches section styles */
+#featured-watches {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: whitesmoke;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Individual watch details styles */
+.watch-details {
+    margin-bottom: 30px;
+}
+
+/* Watch image styles */
+.watch-details img {
+    max-width: 200px;
+    height: 200px;
+    border: 1px solid wheat;
+    border-radius: 5px;
+}
+
+/* Watch name styles */
+.watch-name {
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+/* Watch description styles */
+.watch-description {
+    margin-top: 10px;
+}
+
+/* Featured products section styles */
+#featured-products {
+    text-align: center;
+    padding: 5em 2em;
+}
+
+/* Carousel styles */
+.carousel {
+    display: flex;
+    overflow: hidden;
+}
+
+/* Individual slide styles */
+.slide {
+    flex: 0 0 100%;
+    display: none;
+    transition: opacity 0.5s ease-in-out;
+    position: relative;
+}
+
+/* Slide image styles */
+.slide img {
+    width: 600px;
+    height: 600px;
+    border-radius: 8px;
+}
+
+/* Active slide styles */
+.slide.active {
+    display: block;
+}
+
+/* Testimonials section styles */
+#testimonials {
+    text-align: center;
+    padding: 5em 2em;
+}
+
+/* Testimonial styles */
+.testimonial {
+    margin-bottom: 20px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Customer name styles */
+.customer-name {
+    font-style: italic;
+    color: darkslategray;
+}
+
+/* Footer styles */
+footer {
+    background-color: black;
+    color: whitesmoke;
+    padding: 2em;
+    text-align: center;
+}
+
+/* Footer links styles */
+#footer-links ul {
+    list-style-type: none;
+}
+
+/* Footer links li styles */
+#footer-links li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+/* Contact information styles */
+#contact-info a {
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+/* Contact information hover styles */
+#contact-info a:hover {
+    text-decoration: underline;
+}

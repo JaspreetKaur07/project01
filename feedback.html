@@ -1,0 +1,81 @@
+<!-- Document Type Declaration -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!--document metadata -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <!-- Link to external stylesheet -->
+  <link rel="stylesheet" href="feedback.css">
+  
+  <!-- Set the document title -->
+  <title>Feedback Form</title>
+</head>
+<body>
+  <!-- Header section -->
+  <header>
+      <!-- Website Title -->
+      <h1>VINTAGE WATCHES</h1>
+      <!-- Navigation menu -->
+      <nav>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="history.html">History</a></li>
+            <li><a href="products.html">Products</a></li>
+            <li><a href="feedback.html">Feedback</a></li>
+          </ul>
+      </nav>
+  </header>
+
+  <!-- Feedback form section -->
+  <div class="container">
+    <h1>Feedback Form</h1>
+    <form id="feedbackForm" onsubmit="submitForm(event)">
+      <!-- Name input -->
+      <label for="name">Your Name:</label>
+      <input type="text" id="name" name="name" required>
+
+      <!-- Email input -->
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required>
+
+      <!-- Mobile Number input -->
+      <label for="tel">Mobile Number:</label>
+      <input type="number" id="tel" name="tel" required>
+
+      <!-- Feedback textarea -->
+      <label for="feedback">Your Feedback:</label>
+      <textarea id="feedback" name="feedback" rows="4" required></textarea>
+
+      <!-- Submit button -->
+      <button type="submit">Submit</button>
+    </form>
+
+    <!-- Success message section -->
+    <div id="successMessage" class="hidden">
+      <p>Thank you for your feedback!</p>
+    </div>
+  </div>
+
+  <!-- Footer section -->
+  <footer>
+    <!-- Footer links -->
+    <div id="footer-links">
+        <ul>
+            <li><a href="#">Privacy Policy</a></li>
+            <li><a href="#">Terms of Service</a></li>
+        </ul>
+    </div>
+    <!-- Contact information -->
+    <div id="contact-info">
+        <p>Contact us at: <a href="mailto:info@vintagewatches.com">info@vintagewatches.com</a></p>
+        <p>Follow us on <a href="#" target="_blank">Facebook</a> and <a href="#" target="_blank">Twitter</a></p>
+    </div>
+  </footer>
+
+  <!-- Included external JavaScript file -->
+  <script src="feedback.js"></script>
+</body>
+</html>

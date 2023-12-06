@@ -1,0 +1,161 @@
+/* Resetting default margin, padding, and text alignment for certain elements */
+body, h2, p, ul, li {
+  margin: 1;
+  padding: 0;
+  text-align: center;
+}
+
+/* Overall styling for the body */
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: wheat;
+  color: darkslategray;
+  margin: 0;
+  padding: 0;
+}
+
+/* Styling for the header section */
+header {
+  background-color: black;
+  color: whitesmoke;
+  padding: 1em;
+}
+
+/* Styling for the main heading within the header */
+header h1 {
+  font-family: Georgia, 'Times New Roman', Times, serif; 
+  font-size: 60px; 
+  color: wheat; 
+  margin: 0; 
+}
+
+/* Styling for subheadings (h3) */
+h3 {
+  font-family: Georgia, 'Times New Roman', Times, serif; 
+  font-size: 20px; 
+  color: wheat; 
+  margin: 0;
+  text-align: center;  
+}
+
+/* Styling for the header heading on hover */
+header h1:hover {
+  color: wheat;
+  text-decoration: wavy;
+}
+
+/* Styling for the navigation menu */
+nav {
+  text-align: center;
+}
+
+/* Styling for the unordered list within the navigation menu */
+nav ul {
+  list-style-type: none;
+}
+
+/* Styling for list items within the navigation menu */
+nav li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+/* Styling for navigation links */
+nav a {
+  text-decoration: none;
+  color: whitesmoke;
+  font-weight: bold;
+}
+
+/* Styling for the container */
+.container {
+  max-width: 600px;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: wheat;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  text-align: center;
+}
+
+/* Styling for the form */
+form {
+  margin-top: 20px;
+}
+
+/* Styling for labels within the form */
+label {
+  display: block;
+  margin-bottom: 8px;
+  color: black;
+}
+
+/* Styling for input and textarea fields */
+input,
+textarea {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 15px;
+  box-sizing: border-box;
+  border: 1px solid wheat;
+  border-radius: 4px;
+}
+
+/* Styling for the footer section */
+footer {
+  background-color: black;
+  color: whitesmoke;
+  padding: 2em;
+  text-align: center;
+}
+
+/* Styling for the unordered list within the footer */
+#footer-links ul {
+  list-style-type: none;
+}
+
+/* Styling for list items within the footer */
+#footer-links li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+/* Styling for contact information links */
+#contact-info a {
+  color: whitesmoke;
+  text-decoration: none;
+}
+
+/* Styling for contact information links on hover */
+#contact-info a:hover {
+  text-decoration: underline;
+}
+
+/* Styling for buttons */
+button {
+  background-color: wheat;
+  color: black;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* Styling for buttons on hover */
+button:hover {
+  background-color: green;
+}
+
+/* Styling for success message */
+#successMessage {
+  margin-top: 20px;
+  padding: 10px;
+  background-color: wheat;
+  color: black;
+  border: 1px solid black;
+  border-radius: 4px;
+}
+
+.hidden {
+  display: none;
+}

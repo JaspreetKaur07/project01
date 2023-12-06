@@ -1,0 +1,134 @@
+/* Resetting default margin, padding, and text alignment for specific elements */
+body, h2, p, ul, li {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+/* Body styling */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: wheat;
+    color: darkslategray;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header styling */
+header {
+    background-color: black;
+    color: whitesmoke;
+    padding: 1em;
+}
+
+/* Header title styling */
+header h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 60px;
+    color: wheat;
+    margin: 0;
+}
+
+/* H3 styling */
+h3 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    color: wheat;
+    margin: 0;
+    text-align: center;
+}
+
+/* Header hover effect */
+header h1:hover {
+    color: wheat;
+    text-decoration: wavy;
+}
+
+/* Navigation styling */
+nav {
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: whitesmoke;
+    font-weight: bold;
+}
+
+/* Section margin */
+section {
+    margin: 20px;
+}
+
+/* Watch row styling */
+.watch-row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+/* Product styling */
+.product {
+    border: 1px solid #ccc;
+    padding: 15px;
+    margin-bottom: 20px;
+    width: 45%;
+}
+
+/* Product image styling */
+.product img {
+    max-width: 400px;
+    height: 400px;
+}
+
+/* Footer styling */
+footer {
+    background-color: black;
+    color: whitesmoke;
+    padding: 2em;
+    text-align: center;
+}
+
+/* Footer links styling */
+#footer-links ul {
+    list-style-type: none;
+}
+
+#footer-links li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+/* Contact info styling */
+#contact-info a {
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+/* Contact info hover effect */
+#contact-info a:hover {
+    text-decoration: underline;
+}
+
+/* Button styling */
+button {
+    background-color: #4CAF50;
+    color: wheat;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+/* Button hover effect */
+button:hover {
+    background-color: #45a049;
+}
